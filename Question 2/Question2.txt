@@ -1,0 +1,8 @@
+Explain Pros & Cons in using a NoSQL database like MongoDB as your data store, compared to a traditional
+Relational SQL Database like MySQL?
+
+One of the benefits of a NoSQL database is the fact that it is not a relationel database, and you can therefore
+put pretty much anything in to the database with out getting errors. An entry in the database might have a tag
+or other property that points to a different table in the database. In a relationel database you would get errors
+if these criteria's where not met, but in a NoSQL database, you would just not have this reference when 
+pulling the data.

@@ -1,0 +1,3 @@
+Explain, using a relevant example, a full MEAN application including relevant test cases to test the REST-API?
+
+I have finished the jokes exercise that we got in period 1 or 2 so it now has both a MongoDB and test cases for the rest api.

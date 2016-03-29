@@ -1,0 +1,5 @@
+Explain, using relevant examples, the strategy for querying MongoDB (all CRUD operations)?
+
+"Find" look in the data collection and find a specific document/object and return that. 
+"Add" save object to database, using insert() from mongodb.
+"Delete" look in the data collection and find the specific document /object and delete it.

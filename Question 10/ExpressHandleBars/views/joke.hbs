@@ -1,0 +1,17 @@
+<h1>Joke</h1>
+<div class="container">
+    <h3>Joke details!</h3>
+    <p>Author: {{joke.reference.author}}</p>
+    <p>Joke: {{joke.joke}}</p>
+    <p><a href="{{joke.reference.link}}">Source</a></p>
+    <p>Joke type</p>
+    <ul class="list-group col-md-6">
+        {{#each joke.type}}
+            <li class="list-group-item">{{this}}</li>
+        {{/each}}
+    </ul>
+</div>
+<div class="container">
+    <a href="/jokes" class="btn btn-default">Go back</a>
+</div>
+

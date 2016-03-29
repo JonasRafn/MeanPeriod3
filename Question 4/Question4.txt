@@ -1,0 +1,11 @@
+Explain reasons to add a layer like Mongoose, on top on of a schema-less database like MongoDB?
+
+When using Mongoose, or a similar middleware, to add a schema to your NoSQL database, there can be multiple
+reasons. 
+1. "Schema Validation" 
+You might want the entries in your database to have some specific data. In our joke app, it would make no sense
+to save a joke object if there was no joke, but we might be okay with the fact that there is no author.
+
+2. "Better Syntax"
+Mongoose also provide some help with using the MongoDB, the syntax Mongoose uses looks more like SQL or JPQL, 
+which many developers have used before. 

@@ -1,0 +1,7 @@
+Explain, generally, what is meant by a NoSQL database?
+
+A NoSQL or "non SQL" database, is not a new type of databases it was invented at the same time as relationel database, but 
+at that time in the 80's the relationel database became the standard, and still is todey for some projects. NoSQL simply means 
+the database is not relationel, today it is designed to work on multiple machines at the same times, where as a relationel
+database only runs on 1 machine at a time. A NoSQL database can be 1 of 4 types a "Column Database", "Document Database", 
+"Key Value Database" and "Graph Database". 

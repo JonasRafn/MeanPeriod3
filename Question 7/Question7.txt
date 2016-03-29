@@ -1,0 +1,3 @@
+Explain the benefits from using Mongoose, and provide an example involving all CRUD operations?
+
+See Question 4 and 6

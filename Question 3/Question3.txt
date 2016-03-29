@@ -1,0 +1,8 @@
+Explain how databases like MongoDB and redis would be classified in the NoSQL world?
+
+MongoDB is a Document database, this means that all the data is saved in documents, you can think of 
+it as all being saved in .txt files on the harddrive. 
+
+Redis is a Key Value database, that is saved in-memory this way you can think of a Redis database, 
+as a giant Hash -Map, -set, etc. Where every value is saved with a key you search, this is also 
+1 of the reasons its often used for holding user login data.

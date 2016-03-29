@@ -1,0 +1,8 @@
+Explain how redis "fits" into the NoSQL world?
+
+One of the most apparent use cases for Redis is using it as a Session Store. The advantages of 
+using Redis over other session stores, is that Redis offers persistence. While maintaining a 
+cache isn't typically mission critical with regards to consistency, most users wouldn't exactly 
+enjoy if all their cart sessions went away.
+
+Redis can also be used for storing login data as it is fast to serch for a value in Redis.

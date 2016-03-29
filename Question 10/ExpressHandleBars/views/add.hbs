@@ -1,0 +1,11 @@
+<h1>Hi {{name}}. Submit a new joke</h1>
+<p>Number if jokes submitted: {{storeJokeCount}}</p>
+<form method="post" action="/storeJoke">
+    <input name="joke" placeholder="Joke.."/>
+    <input name="author" placeholder="Author.."/>
+    <input name="type" placeholder="Type.."/>
+    <input name="link" placeholder="Link.."/>
+    <input type="submit" class="btn btn-primary" value="Add Joke"/>
+</form>
+<br>
+<a href="/" class="btn btn-default">Go Back</a>

@@ -1,0 +1,25 @@
+<h3>Hi {{name}} welcome.</h3>
+<p>Number of times get all jokes: {{jokesCount}}</p>
+<table class="table table-responsive">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Joke</th>
+        <th>Details</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <p>All jokes in DataBase</p>
+    {{#each jokes}}
+        <tr>
+            <td>{{_id}}</td>
+            <td>{{joke}}</td>
+            <td><a href="/joke/{{_id}}" class="btn btn-primary btn-xs">Details</a></td>
+            <td><a href="/delete/{{_id}}" class="btn btn-danger btn-xs">Delete</a></td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+<a href="/" class="btn btn-default">Go Back</a>

@@ -1,0 +1,8 @@
+Demonstrate, using a REST-API, how to perform all CRUD operations on a MongoDB?
+
+Instead of using the res.render function you can use the res.json function to return
+the data gathered from your MongoDB as a json response. You can still use the same
+"CRUD layer" (jokes.js) as for an app using handlebars or jade.
+
+The RandomJoke.js is one of the routes from my joke app, here i am using res.render
+if i wanted to change it to a rest api i could simply use res.json.
